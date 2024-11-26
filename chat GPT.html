@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inline Styled Login Form</title>
+</head>
+<body background="image1.jpg" style="font-family: Arial, sans-serif; background-color: #f0f4f8; display: flex; justify-content: center; align-items: center; height: 100vh;">
+
+  <div style="background-color: white; padding: 30px; border-radius: 40px; box-shadow: 20px 8px 5px rgba(185, 8, 8, 0.1); max-width: 400px; width: 100%;">
+    <h2 style="text-align: center; color: #333;">Login</h2>
+    
+    <form action="/login" method="post" style="display: flex; flex-direction: column;">
+      
+      <!-- Username Field -->
+      <label for="username" style="margin-bottom: 8px; color: #555;">Username</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username" 
+             style="padding: 12px; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 20px; font-size: 16px;">
+
+      <!-- Password Field -->
+      <label for="password" style="margin-bottom: 8px; color: #555;">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" 
+             style="padding: 12px; border: 1px solid #ddd; border-radius: 8px; margin-bottom: 20px; font-size: 16px;">
+      
+      <!-- Submit Button -->
+      <button type="submit" 
+              style="padding: 12px; border: none; background-color: #4CAF50; color: white; border-radius: 8px; font-size: 16px; cursor: pointer;">
+        Login
+      </button>
+      
+    </form>
+    
+    <!-- Extra Links -->
+    <p style="text-align: center; margin-top: 20px;">
+      <a href="#" style="color: #4CAF50; text-decoration: none;">Forgot password?</a> | 
+      <a href="#" style="color: #4CAF50; text-decoration: none;">Sign up</a>
+    </p>
+  </div>
+
+</body>
+</html>
