@@ -1,17 +1,2 @@
-const display = document.getElementById("display");
-
-function appendToDisplay(input){
-    display.value += input;
-}
-
-function clearDisplay() {
-    display.value = "";
-}
-
-function calculate() {
-    try {
-        display.value = eval(display.value);
-    } catch (error) {
-        display.value = "Error";
-    }
-}
+const arr1 = [1,2,1,9]
+console.log(arr1.includes(5))
